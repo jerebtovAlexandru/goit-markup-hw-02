@@ -143,6 +143,6 @@ letter-spacing: 0.03em;
 .address-footer a{
   color:rgba(255, 255, 255, 0.6) ;
 }
-.page-footer a:hover ,.page-footer a:focus ,.page-footer p:hover , .page-footer p:focus{
+.address-footer a:hover ,.address-footer a:focus ,.address-footer p:hover , .address-footer p:focus{
   color:var(--accent-color);
 }
