@@ -1,0 +1,148 @@
+:root{
+  --primary-text-color:#212121;
+--accent-color:#2196F3;
+--secondary-text-color:#757575;
+--white-text-color:#ffffff;
+  
+}
+/* глобальное оформление */
+.body {
+   color:var(--primary-text-color); 
+   font-family:Roboto,sans-serif ;
+   letter-spacing:0.03em ;
+}
+.navigation a, .address-header a , .logo , .address-footer a{
+ text-decoration:none;
+}
+.list{
+   list-style-type:none;  
+}
+
+
+/* logo */
+
+.accent{
+color:var(--accent-color) ;
+font-family: Raleway,sans-serif;
+font-size: 26px;
+font-weight: 700;
+line-height: 1.15;
+}
+.page-header .logo{
+  color: var(--primary-text-color);
+  font-family: Raleway , sans-serif;
+  font-size: 26px;
+font-weight: 700;
+line-height: 1.15;
+}
+.page-footer .logo{
+ color: var(--white-text-color); 
+ font-family: Raleway;
+ font-size: 26px;
+font-weight: 700;
+line-height: 1.15;
+}
+
+/* Оформление header  */
+
+.navigation a {
+color: var(--primary-text-color);
+font-size: 14px;
+font-weight: 500;
+line-height: 1.14;
+letter-spacing: 0.02em;
+}
+.navigation a:hover , .navigation a:focus{
+ color: var(--accent-color); 
+}
+.address-header a{
+  color:var(--secondary-text-color);
+  font-size: 14px;
+font-weight: 500;
+line-height: 1.14;
+letter-spacing: 0.02em;
+}
+.address-header a:hover , .address-header a:focus{
+  color: var(--accent-color);
+}
+
+/* оформление hero  */
+
+.hero{
+ background-color:#2F303A;
+  text-align: center; 
+}
+
+.hero-title{
+  color:#ffffff;
+font-size: 44px;
+font-weight: 900;
+line-height: 1.36;
+letter-spacing: 0.06em;
+}
+.button{
+ color:#ffffff ; 
+ background-color: #2196F3;
+ cursor:pointer ;
+font-size: 16px;
+font-weight: 700;
+line-height: 1.87;
+letter-spacing: 0.06em;
+} 
+
+.button:focus ,.button:hover{
+  color:var(--white-text-color); 
+  background-color: #212121;
+}
+
+/* Оформление Main  */
+
+.section .subtitle ,.section-team p {
+ color: var(--secondary-text-color); 
+}
+.zero{
+color: var(--white-text-color);
+}
+.page-main h3{
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+}
+.list-warning .subtitle{
+font-size: 14px;
+line-height:1.71;
+letter-spacing: 0.03em;
+}
+.section-work h2 ,.section-team h2{
+font-size: 36px;
+line-height: 1.16;
+letter-spacing: 0.03em;
+text-align: center;
+}
+.name{
+font-size: 16px;
+font-weight: 500;
+line-height: 1.12;
+letter-spacing: 0.03em;
+} 
+.section-team{
+  background-color: #F5F4FA;
+}
+
+/* Оформление footer  */
+.page-footer{
+  background-color:#2F303A;
+font-size: 14px;
+font-weight: 400;
+line-height: 1.71;
+letter-spacing: 0.03em;
+}
+.address-footer p{
+  color: var(--white-text-color);
+}
+.address-footer a{
+  color:rgba(255, 255, 255, 0.6) ;
+}
+.page-footer a:hover ,.page-footer a:focus ,.page-footer p:hover , .page-footer p:focus{
+  color:var(--accent-color);
+}
